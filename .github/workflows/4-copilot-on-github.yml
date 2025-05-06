@@ -28,14 +28,12 @@ jobs:
     steps:
       - id: get-issue-url
         run: |
-          # Get the issue url from the event or search for it.
           if [ -n "${{ github.event.issue }}" ]; then
             issue_url="${{ github.event.issue.html_url }}"
           else
             issue_url=$(gh issue list --repo $REPO --search "in:title Exercise:" --json url,title --jq '.[].url')
           fi
 
-          # Save to output
           echo "ISSUE_URL=$issue_url" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -57,12 +55,6 @@ jobs:
         with:
           repository: Copilot-Workshop-Invillia/response-templates
           path: skills-response-templates
-
-      # START: Check practical exercise
-
-      # Nothing to check. Merging the pull request is enough.
-
-      # END: Check practical exercise
 
       - name: Create comment - step finished - final review next
         run: |
@@ -129,12 +121,10 @@ jobs:
 
       - name: Update README - congratulations
         run: |
-          # Add "Congratulations" to the start of the README
-          orig_readme=$(cat README.md)
-          new_readme="${{ steps.build-message-congratulations.outputs.updated-text }} $orig_readme"
+          echo '${{ steps.build-message-congratulations.outputs.updated-text }}' > temp_readme.md
+          cat README.md >> temp_readme.md
+          mv temp_readme.md README.md
 
-          # Update file and push
-          echo "$new_readme" > README.md
           git add README.md
           git commit --message="Congratulations!🎉"
           git push
