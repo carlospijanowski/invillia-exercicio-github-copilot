@@ -1,50 +1,58 @@
-# API de Atividades da Escola Secundária Mergington
+# GitHub Copilot
 
-Uma aplicação extremamente simples usando FastAPI que permite aos estudantes visualizar e se inscrever em atividades extracurriculares.
+![](https://github.com/danielalves96/invillia-exercicio-github-copilot/actions/workflows/1-preparing.yml/badge.svg)
+![](https://github.com/danielalves96/invillia-exercicio-github-copilot/actions/workflows/2-first-introduction.yml/badge.svg)
+![](https://github.com/danielalves96/invillia-exercicio-github-copilot/actions/workflows/3-copilot-edits.yml/badge.svg)
+![](https://github.com/danielalves96/invillia-exercicio-github-copilot/actions/workflows/4-copilot-on-github.yml/badge.svg)
 
-## Funcionalidades
+## Boas-vindas
 
-- Visualizar todas as atividades extracurriculares disponíveis
-- Inscrever-se em atividades
+- **O que você aprenderá:** As diferentes formas de interação com o Copilot para explicar, escrever, depurar e desenvolver código.
+- **O que você construirá:** Você irá guiar o Copilot para atualizar o site de atividades extracurriculares da Escola Secundária Mergington.
 
-## Como começar
+- **Pré-requisitos:**
+  - Exercício básico: [Introdução ao GitHub](https://github.com/skills/introduction-to-github)
+  - Familiaridade com o [VS Code](https://code.visualstudio.com/)
+  - Noções básicas de programação
+- **Duração:** Este exercício leva menos de uma hora para ser concluído.
 
-1. Instale as dependências:
+Neste exercício, você irá:
 
-   ```
-   pip install fastapi uvicorn
-   ```
+1. Usar um Codespace pré-configurado para executar o VS Code no seu navegador.
+1. Aprender diferentes opções de interação para desenvolver com o GitHub Copilot.
+1. Usar o Copilot para resumir e revisar seu pull request.
 
-2. Execute a aplicação:
+### Como iniciar este exercício
 
-   ```
-   python app.py
-   ```
+1. Clique com o botão direito em **Copiar Exercício** e abra o link em uma nova aba.
 
-3. Abra seu navegador e acesse:
-   - Documentação da API: http://localhost:8000/docs
-   - Documentação alternativa: http://localhost:8000/redoc
+   <a id="copy-exercise">
+      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
+   </a>
 
-## Endpoints da API
+2. Na nova aba, a maioria dos campos será preenchida automaticamente.
 
-| Método | Endpoint                                                          | Descrição                                                                  |
-| ------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| GET    | `/activities`                                                     | Obter todas as atividades com detalhes e número atual de participantes     |
-| POST   | `/activities/{activity_name}/signup?email=student@mergington.edu` | Inscrever-se em uma atividade                                              |
+   - Para proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
+   - Recomendamos criar um repositório público, pois repositórios privados utilizarão [minutos do Actions](https://docs.github.chttps://github.com/danielalves96/invillia-exercicio-github-copilot/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - Role a página para baixo e clique no botão **Create repository** no fim do formulário.
 
-## Modelo de Dados
+3. Após a criação do seu novo repositório, aguarde cerca de 20 segundos para que o exercício seja preparado e os botões sejam atualizados. Você continuará trabalhando na sua cópia do exercício.
 
-A aplicação utiliza um modelo de dados simples com identificadores claros:
+   - O botão **Copiar Exercício** ficará desativado, mudando para cinza.
+   - O botão **Iniciar Exercício** será ativado, mudando para verde.
+   - Provavelmente será necessário atualizar a página.
 
-1. **Atividades** - Usa o nome da atividade como identificador:
+4. Clique em **Iniciar Exercício**. Siga as instruções passo a passo, e o feedback será fornecido conforme você avança.
 
-   - Descrição
-   - Horários
-   - Número máximo permitido de participantes
-   - Lista de e-mails dos estudantes inscritos
+   <a id="start-exercise" href="https://github.com/danielalves96/invillia-exercicio-github-copilot/issues/1">
+      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
+   </a>
 
-2. **Estudantes** - Usa o e-mail como identificador:
-   - Nome
-   - Ano escolar
+> [!IMPORTANT]
+> O botão **Iniciar Exercício** será ativado após copiar o repositório. Provavelmente você precisará atualizar a página.
 
-Todos os dados são armazenados em memória, portanto os dados serão redefinidos quando o servidor for reiniciado.
+---
+
+Obtenha ajuda: [Publique em nosso fórum de discussão](https://github.com/orgs/Copilot-Workshop-Invillia/discussions/categories/getting-started-with-github-copilot) &bull; [Confira a página de status do GitHub](https://www.githubstatus.com/)
+
+&copy; 2025 GitHub &bull; [Código de Conduta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licença MIT](https://gh.io/mit)
