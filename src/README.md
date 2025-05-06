@@ -1,3 +1,8 @@
+## 🎉 Congratulations
+
+<img src="https://octodex.github.com/images/welcometocat.png" align="right" height="250px" />
+
+
 # GitHub Copilot
 
 ![](../../actions/workflows/1-preparing.yml/badge.svg)
