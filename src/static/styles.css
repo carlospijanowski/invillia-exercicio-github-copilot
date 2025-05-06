@@ -142,3 +142,14 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Estilo para exibir informações dos participantes */
+.participant-info {
+  background-color: #e3f2fd;
+  padding: 15px;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #0d47a1;
+  font-weight: bold;
+}
