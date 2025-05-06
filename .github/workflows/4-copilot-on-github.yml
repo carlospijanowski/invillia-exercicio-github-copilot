@@ -33,6 +33,7 @@ jobs:
           else
             issue_url=$(gh issue list --repo $REPO --search "in:title Exercise:" --json url,title --jq '.[].url')
           fi
+
           echo "ISSUE_URL=$issue_url" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -154,7 +155,7 @@ jobs:
 
       - name: Disable current workflow
         run: |
-          gh workflow disable "Step 4a" || true
-          gh workflow disable "Step 4b" || true
+          gh workflow disable "Step 4a"
+          gh workflow disable "Step 4b"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
