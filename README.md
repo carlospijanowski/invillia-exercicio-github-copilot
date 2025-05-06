@@ -1,9 +1,9 @@
 # GitHub Copilot
 
-![](https://github.com/carlospijanowski/invillia-exercicio-github-copilot/actions/workflows/1-preparing.yml/badge.svg)
-![](https://github.com/carlospijanowski/invillia-exercicio-github-copilot/actions/workflows/2-first-introduction.yml/badge.svg)
-![](https://github.com/carlospijanowski/invillia-exercicio-github-copilot/actions/workflows/3-copilot-edits.yml/badge.svg)
-![](https://github.com/carlospijanowski/invillia-exercicio-github-copilot/actions/workflows/4-copilot-on-github.yml/badge.svg)
+![](../../actions/workflows/1-preparing.yml/badge.svg)
+![](../../actions/workflows/2-first-introduction.yml/badge.svg)
+![](../../actions/workflows/3-copilot-edits.yml/badge.svg)
+![](../../actions/workflows/4-copilot-on-github.yml/badge.svg)
 
 ## Boas-vindas
 
@@ -11,9 +11,9 @@
 - **O que você construirá:** Você irá guiar o Copilot para atualizar o site de atividades extracurriculares da Escola Secundária Mergington.
 
 - **Pré-requisitos:**
-  - Exercício básico: [Introdução ao GitHub](https://github.com/skills/introduction-to-github)
-  - Familiaridade com o [VS Code](https://code.visualstudio.com/)
-  - Noções básicas de programação
+    - Exercício básico: [Introdução ao GitHub](https://github.com/skills/introduction-to-github)
+    - Familiaridade com o [VS Code](https://code.visualstudio.com/)
+    - Noções básicas de programação
 - **Duração:** Este exercício leva menos de uma hora para ser concluído.
 
 Neste exercício, você irá:
@@ -26,26 +26,26 @@ Neste exercício, você irá:
 
 1. Clique com o botão direito em **Copiar Exercício** e abra o link em uma nova aba.
 
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
+   <a id="copy-exercise" target="_blank" href="https://github.com/new?template_name=skills-getting-started-with-github-copilot&template_owner=Copilot-Workshop-Invillia&name=invillia-exercicio-github-copilot&owner=%40me&description=Exercio:+Utilizando+GitHub+Copilot&visibility=public">
+      <img src="https://img.shields.io/badge/📠_Copiar_Exercício-008000" height="25pt"/>
    </a>
 
 2. Na nova aba, a maioria dos campos será preenchida automaticamente.
 
-   - Para proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
-   - Recomendamos criar um repositório público, pois repositórios privados utilizarão [minutos do Actions](https://docs.github.chttps://github.com/carlospijanowski/invillia-exercicio-github-copilot/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Role a página para baixo e clique no botão **Create repository** no fim do formulário.
+    - Para proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
+    - Recomendamos criar um repositório público, pois repositórios privados utilizarão [minutos do Actions](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+    - Role a página para baixo e clique no botão **Create repository** no fim do formulário.
 
 3. Após a criação do seu novo repositório, aguarde cerca de 20 segundos para que o exercício seja preparado e os botões sejam atualizados. Você continuará trabalhando na sua cópia do exercício.
 
-   - O botão **Copiar Exercício** ficará desativado, mudando para cinza.
-   - O botão **Iniciar Exercício** será ativado, mudando para verde.
-   - Provavelmente será necessário atualizar a página.
+    - O botão **Copiar Exercício** ficará desativado, mudando para cinza.
+    - O botão **Iniciar Exercício** será ativado, mudando para verde.
+    - Provavelmente será necessário atualizar a página.
 
 4. Clique em **Iniciar Exercício**. Siga as instruções passo a passo, e o feedback será fornecido conforme você avança.
 
-   <a id="start-exercise" href="https://github.com/carlospijanowski/invillia-exercicio-github-copilot/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
+   <a id="start-exercise">
+      <img src="https://img.shields.io/badge/🚀_Iniciar_Exercício-AAA" height="25pt"/>
    </a>
 
 > [!IMPORTANT]
