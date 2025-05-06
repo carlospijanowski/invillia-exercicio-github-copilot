@@ -1,3 +1,17 @@
+```markdown
+<img src="https://octodex.github.com/images/welcometocat.png" align="right" height="250px" />
+
+⭐️ Parabéns, carlospijanowski! ⭐️
+
+Você concluiu este exercício! Ótimo trabalho! 🥳
+
+Se quiser praticar novamente, você pode repetir os passos abaixo. Basta clicar novamente no botão **Iniciar Exercício**.
+
+> [!TIP]
+> Dessa vez, a Mona não vai avaliar você! 😉
+
+
+```
 # GitHub Copilot
 
 ![](../../actions/workflows/1-preparing.yml/badge.svg)
