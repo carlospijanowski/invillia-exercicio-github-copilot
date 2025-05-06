@@ -22,8 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Add participants list
         const participants = details.participants.length
-          ? `<p><strong>Participants:</strong> ${details.participants.join(", ")}</p>`
-          : `<p><strong>Participants:</strong> No participants yet</p>`;
+            ? `<p class="participant-info"><strong>Participants:</strong> ${details.participants.join(", ")}</p>`
+            : `<p class="participant-info"><strong>Participants:</strong> No participants yet</p>`;
+
 
         activityCard.innerHTML = `
           <h4>${name}</h4>
